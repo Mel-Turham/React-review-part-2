@@ -1,0 +1,22 @@
+export const data = [
+  {
+    id:1,
+    name:'John'
+  },
+  {
+    id:2,
+    name:'Williams'
+  },
+  {
+    id:3,
+    name:'Suzan'
+  },
+  {
+    id:4,
+    name:'Olive'
+  },
+  {
+    id:5,
+    name:'Peter'
+  },
+];

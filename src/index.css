@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+html {
+	font-size: 100%;
+	background-color: #f1f1f1;
+	color: #222;
+}
+
+.container {
+	max-width: 80vw;
+	background: #ffff;
+	margin: 4rem auto;
+	padding: 3rem 1rem;
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	border-radius: 5px;
+}
+
+.btn {
+	padding: 0.5rem 1.5rem;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	background: rgb(25, 25, 239);
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 1rem;
+	font-weight: 500;
+	transition: all 200ms ease-in-out;
+	text-transform: capitalize;
+}
+
+.btn:hover {
+	background: rgb(72, 72, 244);
+}
+
+.btn:disabled {
+	opacity: 0.2;
+	cursor: no-drop;
+}
+.btn:disabled:hover {
+	background: rgb(25, 25, 239);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #000;
+		color: #ffff;
+	}
+	.container {
+		background: #252522;
+		color: #fff;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	html {
+		background: #f1f1f1;
+		color: #2222;
+	}
+
+	.container {
+		background: #fff;
+		color: #000;
+	}
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.list-item p {
+	font-size: 1.5rem;
+	width: fit-content;
+	background-color: rebeccapurple;
+}
