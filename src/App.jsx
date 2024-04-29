@@ -1,9 +1,14 @@
-import UseStateObject from './Tutorials/01-UseState/starter/04-useState-object';
+// import UseEffectBasics from "./Tutorials/02-useEffect/starter/02-useEffect-basics";
+// import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
+import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
+
 
 const App = () => {
 	return (
 		<div className='container'>
-			<UseStateObject />
+			{/* <UseEffectBasics/> */}
+			{/* <MultipleEffects /> */}
+			<UseEffectFetchUser />
 		</div>
 	);
 };
