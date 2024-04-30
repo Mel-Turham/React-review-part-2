@@ -40,11 +40,13 @@ html {
 	transition: all 300ms ease-in-out;
 	text-transform: capitalize;
 	width: fit-content;
+	position: relative;
 }
 
 .btn:hover {
 	outline: 1px solid #fff;
 	background: rgb(25, 25, 239);
+	transform: translateY(-0.8px);
 }
 
 .btn:disabled {
