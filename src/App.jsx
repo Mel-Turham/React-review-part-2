@@ -2,6 +2,8 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
+import List from "./Tutorials/05-leverage-javascript/starter/List";
+
 // import Navbar from "./Tutorials/04-project-structure/starter/Navbar";
 
 // import CleanupFunction from './Tutorials/02-useEffect/starter/05-cleanup-function';
@@ -18,7 +20,7 @@
 
 // import MultipleReturnsBasics from './Tutorials/03-conditional-rendering/starter/01-multiple-returns-basics';
 
-import { Home, About } from './Tutorials/04-project-structure/starter/pages';
+// import { Home, About } from './Tutorials/04-project-structure/starter/pages';
 
 const App = () => {
 	return (
@@ -36,8 +38,10 @@ const App = () => {
 
 			{/* <UserChallenge /> */}
 			{/* <Navbar/> */}
-			<Home />
-			<About />
+			{/* <Home />
+			<About /> */}
+
+			<List/>
 		</div>
 	);
 };
