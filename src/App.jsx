@@ -2,7 +2,9 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
-import CleanupFunction from './Tutorials/02-useEffect/starter/05-cleanup-function';
+// import Navbar from "./Tutorials/04-project-structure/starter/Navbar";
+
+// import CleanupFunction from './Tutorials/02-useEffect/starter/05-cleanup-function';
 
 // import UserChallenge from './Tutorials/03-conditional-rendering/starter/07-user-challenge';
 
@@ -16,13 +18,15 @@ import CleanupFunction from './Tutorials/02-useEffect/starter/05-cleanup-functio
 
 // import MultipleReturnsBasics from './Tutorials/03-conditional-rendering/starter/01-multiple-returns-basics';
 
+import { Home, About } from './Tutorials/04-project-structure/starter/pages';
+
 const App = () => {
 	return (
 		<div className='container'>
 			{/* <UseEffectBasics/> */}
 			{/* <MultipleEffects /> */}
 			{/* <UseEffectFetchUser /> */}
-			<CleanupFunction />
+			{/* <CleanupFunction /> */}
 			{/* <MultipleReturnsBasics /> */}
 			{/* <MultipleReturnsFetchData /> */}
 
@@ -31,6 +35,9 @@ const App = () => {
 			{/* <ToggleChallenge /> */}
 
 			{/* <UserChallenge /> */}
+			{/* <Navbar/> */}
+			<Home />
+			<About />
 		</div>
 	);
 };
