@@ -103,11 +103,12 @@ h6 {
 	background-color: rebeccapurple;
 }
 
-.users-container{
+.users-container {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 1rem;
+	place-content: center;
 }
 .card-user {
 	display: flex;
