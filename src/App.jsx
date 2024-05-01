@@ -2,7 +2,11 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
-import UserRefBasics from "./Tutorials/07-useRef/starter/01-useRef-basics";
+import FetchCustomHook from './Tutorials/08-custom-hooks/starter/02-fetch-data';
+
+// import ToggleExample from './Tutorials/08-custom-hooks/starter/01-toggle';
+
+// import UserRefBasics from "./Tutorials/07-useRef/starter/01-useRef-basics";
 
 // import FormDataApi from './Tutorials/06-forms/starter/05-form-data';
 
@@ -60,7 +64,9 @@ const App = () => {
 			{/* {/* <MultipleInputs/> */}
 			{/* <OtherInputs /> */}
 			{/* <FormDataApi /> */}
-			<UserRefBasics/>
+			{/* <UserRefBasics/> */}
+			{/* <ToggleExample /> */}
+			<FetchCustomHook />
 		</div>
 	);
 };
