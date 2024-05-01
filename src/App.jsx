@@ -2,7 +2,17 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
-import List from "./Tutorials/05-leverage-javascript/starter/List";
+import FormDataApi from './Tutorials/06-forms/starter/05-form-data';
+
+// import OtherInputs from './Tutorials/06-forms/starter/04-other-inputs';
+
+// import MultipleInputs from "./Tutorials/06-forms/starter/03-multiple-inputs";
+
+// import UserChallenge from "./Tutorials/06-forms/starter/02-user-challenge";
+
+// import ControlledInputs from "./Tutorials/06-forms/starter/01-controlled-inputs";
+
+// import List from "./Tutorials/05-leverage-javascript/starter/List";
 
 // import Navbar from "./Tutorials/04-project-structure/starter/Navbar";
 
@@ -41,7 +51,13 @@ const App = () => {
 			{/* <Home />
 			<About /> */}
 
-			<List/>
+			{/* <List/> */}
+			{/* <ControlledInputs/> */}
+			{/* <UserChallenge/> */}
+
+			{/* {/* <MultipleInputs/> */}
+			{/* <OtherInputs /> */}
+			<FormDataApi />
 		</div>
 	);
 };
