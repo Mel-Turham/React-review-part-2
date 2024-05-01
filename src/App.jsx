@@ -2,7 +2,11 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
-import FetchCustomHook from './Tutorials/08-custom-hooks/starter/02-fetch-data';
+import Navbar from "./Tutorials/09-context-api/starter/context/Navbar";
+
+// import Navbar from './Tutorials/09-context-api/starter/props drilling/context';
+
+// import FetchCustomHook from './Tutorials/08-custom-hooks/starter/02-fetch-data';
 
 // import ToggleExample from './Tutorials/08-custom-hooks/starter/01-toggle';
 
@@ -40,7 +44,7 @@ import FetchCustomHook from './Tutorials/08-custom-hooks/starter/02-fetch-data';
 
 const App = () => {
 	return (
-		<div className='container'>
+		<>
 			{/* <UseEffectBasics/> */}
 			{/* <MultipleEffects /> */}
 			{/* <UseEffectFetchUser /> */}
@@ -66,8 +70,11 @@ const App = () => {
 			{/* <FormDataApi /> */}
 			{/* <UserRefBasics/> */}
 			{/* <ToggleExample /> */}
-			<FetchCustomHook />
-		</div>
+			{/* <FetchCustomHook /> */}
+			{/* <Navbar /> */}
+			
+			<Navbar/>
+		</>
 	);
 };
 export default App;
