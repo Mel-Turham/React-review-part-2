@@ -202,6 +202,13 @@ textarea {
 	text-transform: uppercase;
 }
 
+h5{
+	text-align: start;
+	font-weight: bold;
+	font-size: 1.5rem;
+
+}
+
 .nav-container {
 	display: flex;
 	align-items: center;

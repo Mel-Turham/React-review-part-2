@@ -2,7 +2,15 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
-import ReducerBasics from "./Tutorials/10-useReducer/starter/01-useReducer";
+import LatestReact from "./Tutorials/11-performance/starter/04-react-18";
+
+// import LowerStateMemo from './Tutorials/11-performance/starter/03-hooks';
+
+// import LowerStateChallenge from './Tutorials/11-performance/starter/02-lower-state-challenge';
+
+// import LowerState from './Tutorials/11-performance/starter/01-lower-state';
+
+// import ReducerBasics from "./Tutorials/10-useReducer/starter/01-useReducer";
 
 // import Navbar from "./Tutorials/09-context-api/starter/context/Navbar";
 
@@ -46,7 +54,7 @@ import ReducerBasics from "./Tutorials/10-useReducer/starter/01-useReducer";
 
 const App = () => {
 	return (
-		<div className="container">
+		<div className='container'>
 			{/* <UseEffectBasics/> */}
 			{/* <MultipleEffects /> */}
 			{/* <UseEffectFetchUser /> */}
@@ -74,10 +82,15 @@ const App = () => {
 			{/* <ToggleExample /> */}
 			{/* <FetchCustomHook /> */}
 			{/* <Navbar /> */}
-			
+
 			{/* <Navbar/> */}
 
-			<ReducerBasics/>
+			{/* <ReducerBasics/> */}
+			{/* <LowerState /> */}
+			{/* <LowerStateChallenge /> */}
+
+			{/* <LowerStateMemo /> */}
+			<LatestReact/>
 		</div>
 	);
 };

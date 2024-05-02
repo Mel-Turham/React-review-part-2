@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const useFetch = (url) => {
 	const [isLoading, setIsLoading] = useState(true);
 	const [isError, setIsError] = useState(false);
 	const [user, setUser] = useState(null);
 
-	useEffect(() => {
-		const fetchUserInfo = async () => {
+	const fetchUserInfo = useCallback(() => {
+		async () => {
 			try {
 				const res = await fetch(url);
 				if (!res) throw new Error('Data error fetching');
@@ -18,8 +18,11 @@ const useFetch = (url) => {
 				setIsLoading(false);
 			}
 		};
-		fetchUserInfo();
 	}, []);
+
+	useEffect(() => {
+		fetchUserInfo();
+	}, [fetchUserInfo]);
 
 	return { isLoading, isError, user };
 };
