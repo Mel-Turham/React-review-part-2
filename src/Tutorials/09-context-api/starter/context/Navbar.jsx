@@ -5,7 +5,7 @@ const NavbarContext = createContext();
 
 // custom hook context
 
-export const AppContext = ()=> useContext(NavbarContext)
+export const AppContext = () => useContext(NavbarContext);
 const Navbar = () => {
 	const [user, setUser] = useState({
 		name: 'Mel',

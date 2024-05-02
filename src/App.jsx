@@ -2,7 +2,9 @@
 // import MultipleEffects from './Tutorials/02-useEffect/starter/03-multiple-effects';
 // import UseEffectFetchUser from './Tutorials/02-useEffect/starter/04-useEffect-fetch';
 
-import Navbar from "./Tutorials/09-context-api/starter/context/Navbar";
+import ReducerBasics from "./Tutorials/10-useReducer/starter/01-useReducer";
+
+// import Navbar from "./Tutorials/09-context-api/starter/context/Navbar";
 
 // import Navbar from './Tutorials/09-context-api/starter/props drilling/context';
 
@@ -44,7 +46,7 @@ import Navbar from "./Tutorials/09-context-api/starter/context/Navbar";
 
 const App = () => {
 	return (
-		<>
+		<div className="container">
 			{/* <UseEffectBasics/> */}
 			{/* <MultipleEffects /> */}
 			{/* <UseEffectFetchUser /> */}
@@ -73,8 +75,10 @@ const App = () => {
 			{/* <FetchCustomHook /> */}
 			{/* <Navbar /> */}
 			
-			<Navbar/>
-		</>
+			{/* <Navbar/> */}
+
+			<ReducerBasics/>
+		</div>
 	);
 };
 export default App;
